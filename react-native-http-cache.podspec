@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "7.0"
 
   s.source       = { :git => "https://github.com/lehug/react-native-http-cache.git", :tag => "v#{s.version}" }
-  s.source_files  = "ios/*.{h,m}"
+  s.source_files  = "ios/RCTHttpCache/*.{h,m}"
 
   s.dependency 'React'
 end
